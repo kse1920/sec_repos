@@ -33,5 +33,10 @@ changeBuildType(RelativeId("Build")) {
                 targetJdkHome = "%env.JDK_18%"
             }
         }
+        insert(3) {
+            script {
+                scriptContent = """echo "bye""""
+            }
+        }
     }
 }
