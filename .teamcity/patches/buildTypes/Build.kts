@@ -12,6 +12,11 @@ To apply the patch, change the buildType with id = 'Build'
 accordingly, and delete the patch script.
 */
 changeBuildType(RelativeId("Build")) {
+    check(description == "") {
+        "Unexpected description: '$description'"
+    }
+    description = "Test"
+
     expectSteps {
     }
     steps {
