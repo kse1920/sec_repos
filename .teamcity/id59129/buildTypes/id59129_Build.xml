@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="fcf8e30b-c675-4082-ae4b-9c1c5c75fa68" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
   <name>Build</name>
-  <description />
+  <description>blablab</description>
   <settings>
     <parameters />
     <build-runners>
