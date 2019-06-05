@@ -16,13 +16,6 @@
           <param name="userSettingsSelection" value="userSettingsSelection:default" />
         </parameters>
       </runner>
-      <runner id="RUNNER_19" name="" type="simpleRunner">
-        <parameters>
-          <param name="script.content" value="echo &quot;hello&quot;" />
-          <param name="teamcity.step.mode" value="default" />
-          <param name="use.custom.script" value="true" />
-        </parameters>
-      </runner>
       <runner id="RUNNER_20" name="" type="Inspection">
         <parameters>
           <param name="idea.app.home" value="%teamcity.tool.intellij.DEFAULT%" />
@@ -30,6 +23,13 @@
           <param name="jvmArgs" value="-Xmx512m -XX:ReservedCodeCacheSize=240m" />
           <param name="target.jdk.home" value="%env.JDK_18%" />
           <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_19" name="" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="echo &quot;hello&quot;" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
         </parameters>
       </runner>
       <runner id="RUNNER_21" name="" type="simpleRunner">
