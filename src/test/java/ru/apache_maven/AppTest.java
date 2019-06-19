@@ -35,6 +35,10 @@ public class AppTest extends TestCase
     public void testApp(){
         assertTrue( true );
     }
+    
+    public void testFalse(){
+        assertTrue( false );
+    }
 
     public void testAssert() {
 		 String message = new AppBean("Maven 2").sayHello();
