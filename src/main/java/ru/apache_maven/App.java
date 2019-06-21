@@ -11,11 +11,11 @@ public class App
         System.out.println(new AppBean("Maven").sayHello());
         //add new row to test
         System.out.println( "It's me! Hi" );
-    }
-    
-    if (1 < 2 ) 
+        
+     if (1 < 2 ) 
         return true;
     
     if (1 < 2 )
         return true;
+    }
 }
