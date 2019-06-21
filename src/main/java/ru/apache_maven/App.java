@@ -4,6 +4,9 @@ package ru.apache_maven;
  * Hello world!
  *
  */
+
+int i = 0;
+int i = 0;
 public class App 
 {
     public static void main( String[] args )
