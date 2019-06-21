@@ -4,9 +4,6 @@ package ru.apache_maven;
  * Hello world!
  *
  */
-
-int i = 0;
-int i = 0;
 public class App 
 {
     public static void main( String[] args )
@@ -15,4 +12,10 @@ public class App
         //add new row to test
         System.out.println( "It's me! Hi" );
     }
+    
+    if (1 < 2 ) 
+        return true;
+    
+    if (1 < 2 )
+        return true;
 }
