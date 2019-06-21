@@ -13,9 +13,9 @@ public class App
         System.out.println( "It's me! Hi" );
         
      if (1 < 2 ) 
-        return true;
+        System.out.println("Hello");
     
     if (1 < 2 )
-        return true;
+        System.out.println("Hello");
     }
 }
