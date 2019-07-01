@@ -1,5 +1,7 @@
 import jetbrains.buildServer.configs.kotlin.v2018_2.*
 import jetbrains.buildServer.configs.kotlin.v2018_2.buildSteps.maven
+import jetbrains.buildServer.configs.kotlin.v2018_2.buildSteps.script
+import jetbrains.buildServer.configs.kotlin.v2018_2.ideaInspections
 import jetbrains.buildServer.configs.kotlin.v2018_2.triggers.vcs
 
 /*
@@ -42,6 +44,14 @@ object Build : BuildType({
         maven {
             goals = "clean test"
             runnerArgs = "-Dmaven.test.failure.ignore=true"
+        }
+        ideaInspections {
+            pathToProject = "pom.xml"
+            jvmArgs = "-Xmx512m -XX:ReservedCodeCacheSize=240m"
+            targetJdkHome = "%env.JDK_18%"
+        }
+        script {
+            scriptContent = """echo "hello""""
         }
     }
 
