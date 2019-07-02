@@ -16,6 +16,15 @@
           <param name="userSettingsSelection" value="userSettingsSelection:default" />
         </parameters>
       </runner>
+      <runner id="RUNNER_4" name="" type="Inspection">
+        <parameters>
+          <param name="idea.app.home" value="%teamcity.tool.intellij.DEFAULT%" />
+          <param name="iprInfoRunParam" value="&lt;iprInfo path-to-ipr=&quot;pom.xml&quot; /&gt;" />
+          <param name="jvmArgs" value="-Xmx512m -XX:ReservedCodeCacheSize=240m" />
+          <param name="target.jdk.home" value="%env.JDK_18%" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="SecRepos_HttpsGithubComKse1920secReposGitRefsHeadsMaster" />
