@@ -4,7 +4,7 @@
   <description>sajksjaksjadsdsassd</description>
   <settings>
     <parameters />
-    <build-runners order="RUNNER_1, RUNNER_2, RUNNER_3">
+    <build-runners>
       <runner id="RUNNER_1" name="" type="Maven2">
         <parameters>
           <param name="goals" value="clean test" />
@@ -21,13 +21,6 @@
           <param name="userSettingsSelection" value="userSettingsSelection:default" />
         </parameters>
       </runner>
-      <runner id="RUNNER_2" name="" type="simpleRunner">
-        <parameters>
-          <param name="script.content" value="echo &quot;hello&quot;" />
-          <param name="teamcity.step.mode" value="default" />
-          <param name="use.custom.script" value="true" />
-        </parameters>
-      </runner>
       <runner id="RUNNER_3" name="" type="Inspection">
         <parameters>
           <param name="idea.app.home" value="%teamcity.tool.intellij.DEFAULT%" />
@@ -35,6 +28,13 @@
           <param name="jvmArgs" value="-Xmx512m -XX:ReservedCodeCacheSize=240m" />
           <param name="target.jdk.home" value="%env.JDK_18%" />
           <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
+      <runner id="RUNNER_2" name="" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="echo &quot;hello&quot;" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
         </parameters>
       </runner>
     </build-runners>
