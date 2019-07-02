@@ -1,6 +1,9 @@
 package patches.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.v2018_2.*
+import jetbrains.buildServer.configs.kotlin.v2018_2.buildSteps.maven
+import jetbrains.buildServer.configs.kotlin.v2018_2.buildSteps.script
+import jetbrains.buildServer.configs.kotlin.v2018_2.ideaInspections
 import jetbrains.buildServer.configs.kotlin.v2018_2.ui.*
 
 /*
@@ -13,4 +16,25 @@ changeBuildType(RelativeId("Build")) {
         "Unexpected description: '$description'"
     }
     description = "dsdsdfererererwe"
+
+    expectSteps {
+        maven {
+            goals = "clean test"
+            runnerArgs = "-Dmaven.test.failure.ignore=true"
+        }
+        script {
+            scriptContent = """echo "hello""""
+        }
+        ideaInspections {
+            pathToProject = "pom.xml"
+            jvmArgs = "-Xmx512m -XX:ReservedCodeCacheSize=240m"
+            targetJdkHome = "%env.JDK_18%"
+        }
+    }
+    steps {
+        check(stepsOrder == arrayListOf("RUNNER_1", "RUNNER_2", "RUNNER_3")) {
+            "Unexpected build steps order: $stepsOrder"
+        }
+        stepsOrder = arrayListOf<String>()
+    }
 }
