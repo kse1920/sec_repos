@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="9e3f71b7-f77d-4572-b1e3-a080669ca0ac" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
   <name>Build</name>
-  <description />
+  <description>dsdsd</description>
   <settings>
     <parameters />
-    <build-runners order="RUNNER_3,RUNNER_4,RUNNER_5">
+    <build-runners order="RUNNER_3, RUNNER_4, RUNNER_5">
       <runner id="RUNNER_3" name="" type="Maven2">
         <parameters>
           <param name="goals" value="clean test" />
