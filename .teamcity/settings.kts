@@ -43,17 +43,22 @@ object Build : BuildType({
 
     steps {
         maven {
+            id = "RUNNER_1"
             goals = "clean test"
             runnerArgs = "-Dmaven.test.failure.ignore=true"
         }
         script {
+            id = "RUNNER_2"
             scriptContent = """echo "hello""""
         }
         ideaInspections {
+            id = "RUNNER_3"
             pathToProject = "pom.xml"
             jvmArgs = "-Xmx512m -XX:ReservedCodeCacheSize=240m"
             targetJdkHome = "%env.JDK_18%"
         }
+       stepsOrder = arrayListOf("RUNNER_1","RUNNER_2","RUNNER_3")
+
     }
 
     triggers {
