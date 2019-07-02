@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <build-type xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2018.1/project-config.xsd">
   <name>BuildChange</name>
-  <description>sajksjaksja</description>
+  <description>sajksjaksjadsdsassd</description>
   <settings>
     <parameters />
-    <build-runners order="RUNNER_1,RUNNER_2,RUNNER_3">
+    <build-runners order="RUNNER_1, RUNNER_2, RUNNER_3">
       <runner id="RUNNER_1" name="" type="Maven2">
         <parameters>
           <param name="goals" value="clean test" />
