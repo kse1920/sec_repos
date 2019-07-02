@@ -4,7 +4,7 @@
   <description>sajksjaksja</description>
   <settings>
     <parameters />
-    <build-runners>
+    <build-runners order="RUNNER_1,RUNNER_2,RUNNER_3">
       <runner id="RUNNER_1" name="" type="Maven2">
         <parameters>
           <param name="goals" value="clean test" />
