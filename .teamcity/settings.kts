@@ -56,6 +56,7 @@ object Build : BuildType({
             jvmArgs = "-Xmx512m -XX:ReservedCodeCacheSize=240m"
             targetJdkHome = "%env.JDK_18%"
         }
+        stepsOrder = arrayListOf("RUNNER_1", "RUNNER_2", "RUNNER_3")
     }
 
     triggers {
