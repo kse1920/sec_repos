@@ -7,6 +7,3 @@ Added another line to REAMD.md
 Added another line to REAMD.md
 Added another line to REAMD.md
 dsdsdsdsdcxccxcx
-"Необходима консультация"
-dskjdlksjdlksjd
-skjskjas
