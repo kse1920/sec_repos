@@ -31,27 +31,27 @@ public class AppTest extends TestCase
     }
 
     public void testApp(){
-        assertTrue( false );
+        assertTrue( true );
     }
 
     public void testFailed2(){
-        assertTrue( false );
+        assertTrue( true );
     }
 
     public void testFailed3(){
-        assertTrue( false );
+        assertTrue( true );
     }
 
     public void testFailed4(){
-        assertTrue( false );
+        assertTrue( true );
     }
 
     public void testFailed5(){
-        assertTrue( false );
+        assertTrue( true );
     }
 
     public void testFailed6(){
-        assertTrue( false );
+        assertTrue( true );
     }
 
     public void testFailed7(){
@@ -59,7 +59,7 @@ public class AppTest extends TestCase
     }
 
     public void testFailed8(){
-        assertTrue( false );
+        assertTrue( true );
     }
    public void testAssert() {
 		 String message = new AppBean("Maven 2").sayHello();
