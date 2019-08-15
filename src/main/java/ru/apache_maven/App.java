@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println(new AppBean("Maven").sayHello());
+        System.out.println(new AppBean("Maven 2").sayHello());
         //add new row to test
         System.out.println( "It's me! Hi" );
         
