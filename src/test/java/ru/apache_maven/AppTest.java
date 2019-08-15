@@ -35,15 +35,15 @@ public class AppTest extends TestCase
     }
 
     public void testFailed2(){
-        assertTrue( true );
+        assertTrue( fail );
     }
 
     public void testFailed3(){
-        assertTrue( true );
+        assertTrue( fail );
     }
 
     public void testFailed4(){
-        assertTrue( true );
+        assertTrue( fail );
     }
 
     public void testFailed5(){
