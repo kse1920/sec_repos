@@ -52,7 +52,7 @@ public class AppTest extends TestCase
         assertTrue( false );
     }
     
-    public void testFalse4(){
+    public void testFalse5(){
         assertTrue( true );
     }
 
