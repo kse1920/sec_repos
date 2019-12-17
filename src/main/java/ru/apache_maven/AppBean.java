@@ -8,5 +8,9 @@ public class AppBean
     } 
     public String sayHello() {
         return "Hello " + text;
-    } 
+    }
+
+    public String sayHello() {
+        return "Hello " + text;
+    }
 }
