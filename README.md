@@ -5,8 +5,6 @@ dsdsd
 dsdsd
 dsdsd
 dsdsd
-dsdsd
-dsdsd
 dsdsawwwww
 lsklak
 sjka
