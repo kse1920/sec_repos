@@ -1,0 +1,13 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- README.md	(revision 4b0828079f93fd469c842d0eaf2ddfa596d48517)
++++ README.md	(date 1586764027459)
+@@ -8,3 +8,4 @@
+ Added another line to REAMD.md
+ sassa
+ jhdj
++ghdf
+\ No newline at end of file
