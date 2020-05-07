@@ -12,10 +12,10 @@ public class App
         //add new row to test
         System.out.println( "It's me! Hi" );
         
-     if (1 < 2 ) 
+     /*if (1 < 2 )
         System.out.println("Hello");
     
     if (1 < 2 )
-        System.out.println("Hello");
+        System.out.println("Hello");*/
     }
 }
