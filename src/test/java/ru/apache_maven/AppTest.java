@@ -81,7 +81,11 @@ public class AppTest extends TestCase
     public void testFailed13(){
         assertTrue( false );
     }
-        
+    
+    public void testFailed14(){
+        assertTrue( false );
+    }
+    
    public void testAssert() {
 		 String message = new AppBean("Maven 2").sayHello();
          Assert.assertEquals("Test Hello Machine", "Hello Maven 2", message);
