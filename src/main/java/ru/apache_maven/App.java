@@ -10,7 +10,7 @@ public class App
     {
         System.out.println(new AppBean("Maven").sayHello());
         //add new row to test
-        System.out.println( "It's me! Hi" );
+        System.out.println( "It's me!" );
         
      /*if (1 < 2 )
         System.out.println("Hello");
