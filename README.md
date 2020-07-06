@@ -14,4 +14,3 @@ new line 2
 1234
 1234
 test
-one more
