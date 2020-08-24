@@ -67,7 +67,7 @@ public class AppTest extends TestCase
     }
     
     public void testFailed10(){
-        assertTrue( true );
+        assertTrue( false );
     }
     
     public void testFailed11(){

@@ -29,8 +29,9 @@
     <option name="SERVER_URL" value="http://172.31.134.90:8111" />
     <option name="REMEMBER_ME" value="false" />
     <option name="INSPECTIONS_BUILD_TYPE_IDS" value="bt307" />
+    <SELECTED_PROJECT id="project2" />
     <SELECTED_PROJECT id="project12" />
-    <SELECTED_TYPE id="bt11" />
+    <SELECTED_TYPE id="bt2" />
     <treeState key="changes">
       <expandedPath>
         <pathElement>
@@ -82,30 +83,30 @@
     <treeState key="selectConfigurations.run">
       <expandedPath>
         <pathElement>
-          <option name="myNodeId" value="project12" />
+          <option name="myNodeId" value="project2" />
           <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
         </pathElement>
       </expandedPath>
       <expandedPath>
         <pathElement>
-          <option name="myNodeId" value="project25" />
+          <option name="myNodeId" value="project12" />
           <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
         </pathElement>
       </expandedPath>
       <selectedPath>
         <pathElement>
-          <option name="myNodeId" value="project12" />
+          <option name="myNodeId" value="project2" />
           <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
         </pathElement>
         <pathElement>
-          <option name="myNodeId" value="bt11" />
+          <option name="myNodeId" value="bt2" />
           <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.BuildTypeDescriptor" />
         </pathElement>
       </selectedPath>
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90ec6e05-9eff-40ac-833d-93ad52631432" name="Default Changelist" comment="Default Changelist">
+    <list default="true" id="90ec6e05-9eff-40ac-833d-93ad52631432" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/apache_maven/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/apache_maven/AppTest.java" afterDir="false" />
     </list>
@@ -215,27 +216,6 @@
       <option name="presentableId" value="Default" />
       <updated>1559815794341</updated>
       <workItem from="1588779896323" duration="192000" />
-    </task>
-    <task id="LOCAL-00003" summary="fix test">
-      <created>1559901997374</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1559901997374</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Default Changelist">
-      <created>1576582650549</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1576582650549</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Default Changelist">
-      <created>1576595574862</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1576595574862</updated>
     </task>
     <task id="LOCAL-00006" summary="Default Changelist">
       <created>1576596230586</created>
@@ -559,7 +539,28 @@
       <option name="project" value="LOCAL" />
       <updated>1597936512374</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Default Changelist">
+      <created>1598254102119</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1598254102119</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Default Changelist">
+      <created>1598254171707</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1598254171707</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Default Changelist">
+      <created>1598255187512</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1598255187513</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,10 +592,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="606" y="276" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1593169356440" />
-    <state x="496" y="0" key="CommitChangelistDialog2" timestamp="1598254054482">
+    <state x="496" y="0" key="CommitChangelistDialog2" timestamp="1598255187546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="496" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598254054482" />
+    <state x="496" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598255187546" />
     <state x="550" y="154" key="FileChooserDialogImpl" timestamp="1593176923003">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -607,14 +608,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593174448952" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1593176343433">
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1598254607678">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593176343433" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598254607678" />
     <state x="499" y="201" key="git4idea.merge.GitPullDialog" timestamp="1592911299815">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="201" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1592911299815" />
+    <state x="538" y="350" key="git4idea.pull.GitPullDialog" timestamp="1598254107646">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="538" y="350" key="git4idea.pull.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1598254107646" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
