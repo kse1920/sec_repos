@@ -18,6 +18,7 @@ public class AppTest extends TestCase
     /**
      * Rigorous Test :-)
      */
+    public int my_var = 1;
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
@@ -33,7 +34,6 @@ public class AppTest extends TestCase
     public void testApp(){
         assertTrue( true );
     }
-
     public void testFailed2(){
         assertTrue( false );
     }
