@@ -89,6 +89,10 @@ public class AppTest extends TestCase
     public void testFailed15(){
         assertTrue( true );
     }
+    
+    public void testFailed.DotTest(){
+        assertTrue( false );
+    }
 
     
    public void testAssert() {
