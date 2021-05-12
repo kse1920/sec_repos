@@ -90,7 +90,7 @@ public class AppTest extends TestCase
         assertTrue( true );
     }
     
-    public void testFailed.DotTest(){
+    public void testFailed16(){
         assertTrue( false );
     }
 
